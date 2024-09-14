@@ -1,0 +1,68 @@
+body{
+    background-color: lightgray;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh; 
+}
+.container{
+    display: flex;
+    gap: 20px; /* Space between images */
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+   
+
+}
+
+.imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.project-Image {
+    max-width: 100%; /* Ensure it scales within the parent container */
+    max-height: 400px; /* Limit the height to prevent it from being too large */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    object-fit: cover;
+    
+    
+}
+p{
+    font-size: 18px;
+    line-height: 1.6;      /* Improves readability by increasing space between lines */
+    font-family: 'Arial', sans-serif;
+    color:black;
+    padding: 10px;
+
+}
+
+ul,li{
+    font-size: 19px;
+    line-height: 1.6;      /* Improves readability by increasing space between lines */
+    font-family: 'Arial', sans-serif;
+    color:black;
+    
+}
+
+.author-description{
+    font-size:24px;
+    line-height: 1.6;      /* Improves readability by increasing space between lines */
+    font-family: 'Arial', sans-serif;
+    
+    padding-left: 2px;
+    color: #4a4a4a;
+    font-weight: bold;
+
+}
+h1,h2{
+    color: #4a4a4a;
+}
