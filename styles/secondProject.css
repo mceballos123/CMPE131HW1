@@ -8,10 +8,10 @@ body{
 }
 .container{
     display: flex;
-    gap: 20px; /* Space between images */
-    max-width: 1200px; /* Maximum width of the container */
-    margin: 0 auto; /* Center the container horizontally */
-    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    gap: 20px; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    overflow-x: auto; 
    
 
 }
@@ -26,19 +26,19 @@ body{
 }
 
 .project-Image {
-    max-width: 100%; /* Ensure it scales within the parent container */
-    max-height: 400px; /* Limit the height to prevent it from being too large */
-    width: auto; /* Maintain aspect ratio */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 100%;
+    max-height: 400px; 
+    width: auto; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     object-fit: cover;
     
     
 }
 p{
     font-size: 18px;
-    line-height: 1.6;      /* Improves readability by increasing space between lines */
+    line-height: 1.6;      
     font-family: 'Arial', sans-serif;
     color:black;
     padding: 10px;
@@ -47,7 +47,7 @@ p{
 
 ul,li{
     font-size: 19px;
-    line-height: 1.6;      /* Improves readability by increasing space between lines */
+    line-height: 1.6;     
     font-family: 'Arial', sans-serif;
     color:black;
     
@@ -55,7 +55,7 @@ ul,li{
 
 .author-description{
     font-size:24px;
-    line-height: 1.6;      /* Improves readability by increasing space between lines */
+    line-height: 1.6;      
     font-family: 'Arial', sans-serif;
     
     padding-left: 2px;
